@@ -1,5 +1,27 @@
-This is a spring-boot project for data manipulation via a graphql server.
-Database used : Postgre
-Spring boot version: 3.3.2
-Maven version: 3.9.2
-Java version: 17
+# GraphQL Server
+
+GraphQL Server is a simple spring boot project for read data from a Postgre database
+
+### Techstack
+- Java: 17
+- Maven: 3.9.2
+- Spring boot: 3.3.2
+
+## Installation
+
+Use maven [Maven]([https://pip.pypa.io/en/stable/](https://maven.apache.org/download.cgi)) to install the project.
+
+```maven
+mvn clean install
+```
+
+### Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[Spicy Coders B.V.](https://spicycoders.nl/)
