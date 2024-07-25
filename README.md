@@ -9,7 +9,7 @@ GraphQL Server is a simple spring boot project for read data from a Postgre data
 
 ## Installation
 
-Use maven [Maven]([https://pip.pypa.io/en/stable/](https://maven.apache.org/download.cgi)) to install the project.
+Use [Maven](https://maven.apache.org/download.cgi) to install the project.
 
 ```maven
 mvn clean install
