@@ -4,7 +4,7 @@ GraphQL Server is a simple spring boot project for read data from a Postgre data
 
 ### Techstack
 - Java: 17
-- Maven: 3.9.2
+- Maven: 3.9.8
 - Spring boot: 3.3.2
 
 ## Installation
