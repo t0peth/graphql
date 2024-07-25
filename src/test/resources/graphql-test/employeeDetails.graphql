@@ -1,0 +1,12 @@
+query employeeDetails($id: ID) {
+    empInfoById(id: $id) {
+        id
+        scale
+        salary
+        employee {
+            id
+            name
+            email
+        }
+    }
+}
