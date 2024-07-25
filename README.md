@@ -14,7 +14,27 @@ Use [Maven](https://maven.apache.org/download.cgi) to install the project.
 ```maven
 mvn clean install
 ```
+## Test
 
+After running it successfully use the following url to test the project.
+```server
+http://localhost:8080/graphiql?path=/graphql
+```
+With the query:
+```query
+query employeeDetails {
+  empInfoById(id: "<your-emp-id>") {
+    id
+    scale
+    salary
+    employee {
+      id
+      name
+      email
+    }
+  }
+}
+```
 ### Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
